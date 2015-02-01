@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Mohan Raj Nandagopal</title>
+	<!-- Load css styles -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		 <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        
+</head>
+<body>
+		<div class="navbar">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a href="#" class="brand">
+                        <img src="images/mohanlogo.png" width="160" height="90" alt="Logo" />
+                        <!-- This is website logo -->
+                    </a>
+                    <!-- Navigation button, visible on small resolution  class="lavaLampWithImage" id="lava_menu"  id="top-navigation"-->
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <img src="images/menu.png" style="width:16px;height:16px;" alt="menu" />
+                    </button>
+                    <!-- Main navigation -->
+                    <div class="nav-collapse collapse pull-right">
+                        <ul class="nav" id="top-navigation" >
+                            <li ><a href="index.html">Home</a></li>
+                            <li><a href="aboutme.html">About Me</a></li>
+							<li class="active"><a href="projects.html">Projects</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="contactme.html">Contact Me</a></li>
+                        </ul>
+                    </div>
+					
+                    <!-- End main navigation -->
+                </div>
+            </div>
+        </div>
+		
+		<!-- Portfolio section start -->
+        <div class="section secondary-section " id="portfolio">
+            <div class="triangle"></div>
+            <div class="container">
+                <div class=" title">
+                    <h1>Some of My Works</h1>
+                    <p>These are some of my projects which I worked on.Please click on the image to view more details</p>
+                </div>
+                
+                <!-- Start details for portfolio project 1 -->
+                <div id="single-project">
+                    <div id="slidingDiv" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Unity.png" alt="project 1" />
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Hack & Slash</h3>
+                                    <span class="show_hide close">
+                                        <img src="images/no.png" alt="cross"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div class="client-txt">
+                                        <span>Client</span>Centennial College</div>
+                                    <div class="client-txt">
+                                        <span>Date</span>Sep 2014</div>
+                                    <div class="client-txt">
+                                        <span>Skills</span>JavaScript, Unity</div>
+                                    <div class="client-txt">
+                                        </div>
+                                </div>
+                                <p class="client-txt">Hack & slash is a 3D prototype where the player tries to defend his castle from the enemy troops and also tries to kill all the enemies to conquer the enemies castle.There are three levels and the gameplay difficulty increases as the level increases.
+								</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 1 -->
+                    <!-- Start details for portfolio project 2 -->
+                    <div id="slidingDiv1" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/cms.png" alt="project 2">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Gear Junkie</h3>
+                                    <span class="show_hide close">
+                                        <img src="images/no.png" alt="cross"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div class="client-txt">
+                                        <span>Client</span>Centennial College</div>
+                                    <div class="client-txt">
+                                        <span>Date</span>Jan 2014</div>
+                                    <div class="client-txt">
+                                        <span>Skills</span>HTML, CSS, JavaScript, SQL Server</div>
+                                    <div class="client-txt">
+                                        <span></span></div>
+                                </div>
+                                <p class="client-txt">Online winter clothing shopping website that allows the user to purchase winter clothing using interactive features to select them.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 2 -->
+                    <!-- Start details for portfolio project 3 -->
+                    <div id="slidingDiv2" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/stmic.png" alt="project 3">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Server Inventory</h3>
+                                    <span class="show_hide close">
+                                        <img src="images/no.png" alt="cross"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div class="client-txt">
+                                        <span>Client</span>St.Micahel's Hospital</div>
+                                    <div class="client-txt">
+                                        <span>Date</span>May 2014</div>
+                                    <div class="client-txt">
+                                        <span>Skills</span>HTML5, CSS3, JavaScript, CakePHP</div>
+                                    <div class="client-txt">
+                                        <span></span></div>
+                                </div>
+                                <p class="client-txt">A Web Application that allows the user to main and update the list of all the servers that has been used within the organization.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 3 -->
+					
+        <ul id="portfolio-grid" class="thumbnails row">
+                        <li class="span4">
+                            <div class="thumbnail">
+                                <img src="images/Unity.png" alt="project 1">
+                                <a href="#single-project" class="more show_hide" rel="#slidingDiv">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Hack & Slash</h3>
+                                <p class="client-txt">3D Game </p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4">
+                            <div class="thumbnail">
+                                <img src="images/cms.png" alt="project 2">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Gear Junkie</h3>
+                                <p class="client-txt">Online Shopping Application</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4">
+                            <div class="thumbnail">
+                                <img src="images/stmic.png" alt="project 3">
+                                <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Server Inventory</h3>
+                                <p class="client-txt">Web Application</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                               </div>
+            </div>
+			<div class="title">
+                            <h3>Get Connected</h3>
+                        </div>
+                  
+                    <div class="row-fluid centered">
+                        <ul class="social">
+                        
+                            <li>
+                                <a href="https://www.facebook.com/people/Mohan-Raj/100000437823132">
+                                    <img src="images/fb.png" alt="fb" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/pub/mohanraj-nandagopal/18/8a6/9b2">
+                                    <img src="images/linkedin.png" alt="linkedin" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/108907838513565460818/about">
+                                    <img src="images/google+.png" alt="g+" />
+                                </a>
+                            </li>
+							<li>
+                                <a href="https://github.com/Nmohanraj24">
+                                    <img src="images/githu.png" style="width:55px; height:55px;"alt="github" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+        </div>
+		<!-- Footer section start -->
+        <div class="footer">
+            <p>&copy; Mohan Raj Nandagopal 2015 All Rights Reserved</p>
+        </div>
+        <!-- Footer section end -->
+		<!-- Include javascript -->
+        
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+        <script type="text/javascript" src="js/jquery.cslider.js"></script>
+        <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+        <script type="text/javascript" src="js/jquery.inview.js"></script>
+        <!-- Load google maps api and call initializeMap function defined in app.js -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;callback=initializeMap"></script>
+        <!-- css3-mediaqueries.js for IE8 or older -->
+        <!--[if lt IE 9]>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <script type="text/javascript" src="js/app.js"></script>
+                 <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  
+		</body></html>
